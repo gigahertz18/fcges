@@ -10,7 +10,7 @@ import collections
 def rotate(A, k):
 
     dequeue_object = collections.deque()
-    print (A)
+    #print (A)
     for item in A:
         dequeue_object.append(item)
 

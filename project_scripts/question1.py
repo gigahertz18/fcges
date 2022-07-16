@@ -8,12 +8,10 @@ positive integer (greater than 0) that does not occur in A.
 """
 
 def missing_int(A):
+    
     arr_len = len(A)
-
     N = set(range(1, arr_len+2))
-
     return min(N - set(A))
-
 
 if __name__ == '__main__':
     A = [1, 3, 6, 4, 1, 2]
